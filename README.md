@@ -1,6 +1,5 @@
-# COMP790---Assignment-1
- COMP790 Assignment 1
-
+# Game design in VR basics
+ 
 The game is a 3D game where players interact with a target object that move unpredictably within a specified range. The target object continually moves in two dimensions—X, Y-creating erratic behavior. This movement is achieved through a combination of random time offsets and the `Mathf.PingPong` function, which ensures the target oscillates back and forth in a somewhat chaotic manner.
 
 In terms of gameplay mechanics, the target is equipped with a `BoxCollider` and a `Rigidbody`. The collider detects collisions with other objects, while the Rigidbody component allows the target to be affected by physical interactions. When the target collides with another object, it is immediately destroyed. This destruction provides instant feedback and keeps the gameplay dynamic and engaging.
